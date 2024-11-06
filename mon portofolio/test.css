@@ -1,0 +1,37 @@
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-group:last-child {
+    margin-right: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    align-self: flex-start;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+.send {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.send:hover {
+    background-color: #0056b3;
+}
