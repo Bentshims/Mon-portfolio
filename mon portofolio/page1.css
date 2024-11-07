@@ -20,7 +20,9 @@ nav a {
     text-decoration: none;
     color: black;
     padding: 5px;
+    cursor: pointer;
 }
+nav a:hover{ text-decoration: underline;}
 .main1{
     position: relative;
     top: 50px;
@@ -41,16 +43,15 @@ main a{
     height: 70px;
     text-align: center;
     line-height: 70px;
-   
-   
-
-    
-
+    cursor: pointer;
 }
 
 main a:nth-child(1){ background-color: orange; margin-right: 16px;}
+main a:nth-child(1):hover{ background-color: rgb(182, 123, 15);}
 main a:nth-child(2){ background-color: red; margin-right: 16px}
+main a:nth-child(2):hover{ background-color: rgb(201, 16, 16);}
 main a:nth-child(3){ background-color: rgb(118, 173, 218);}
+main a:nth-child(3):hover{ background-color: rgb(78, 133, 177);;}
 
 img{
     height:300px;
@@ -126,8 +127,9 @@ footer p{
     position: relative;
     top: 20px;
     left: 20px;
-    
+    cursor: pointer;   
 }
+.send:hover{ background-color: rgb(206, 141, 21);}
 .last-form{
     display: flex;
     flex-direction: row;
