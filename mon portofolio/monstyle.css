@@ -32,6 +32,10 @@ nav a:hover{ text-decoration: underline;}
     width: 800px;
     
 }
+.aboutme{
+    position: relative;
+    bottom: 20px;
+}
 
 main a{ 
     position: relative; 
@@ -73,6 +77,12 @@ img{
 }
 footer a {
     color: black;
+    cursor: pointer;
+    transition: ease 0.3s;
+
+}
+footer a:hover{  
+    transform: scale(1.1);
 }
 .info{
     font-weight: bold;
@@ -85,7 +95,6 @@ footer p{
     position: relative;
     right: 70px ;
 }
-
 .special{ font-size: 18px; font-weight: bold;}
 
 /* page contact */
