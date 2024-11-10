@@ -77,13 +77,10 @@ img{
 }
 footer a {
     color: black;
-    cursor: pointer;
-    transition: ease 0.3s;
+
 
 }
-footer a:hover{  
-    transform: scale(1.1);
-}
+
 .info{
     font-weight: bold;
     padding-bottom: 10px;
