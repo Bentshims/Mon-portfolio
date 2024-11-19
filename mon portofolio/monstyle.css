@@ -163,7 +163,10 @@ header{
 }
 
 /* projet */
-.project1{
+.mainProject{
+    margin: 32px;
+}
+.project1__description{
     width: 500px;
     padding: 32px;
 }
