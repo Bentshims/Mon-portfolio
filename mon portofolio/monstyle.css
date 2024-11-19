@@ -98,16 +98,25 @@ header{
 
 /* page contact */
 
-.contact{
+.mainContact{
     position: relative;
     top: 30px;
-    margin-top: 70px;
+    
+}
+.description{
+    position: absolute;
+    top: 38%;
+    left: 25%;
+}
+.description__items{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
 }
 
 .myforms{
     position: relative;
-    
-    left: 300px;
+    left: 700px;
     bottom: 20px;
 }
 
