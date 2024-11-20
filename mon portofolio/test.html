@@ -1,17 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="test.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="test.css">
+  <title>Menu Hamburger</title>
 </head>
 <body>
-    <header>
+  <nav class="menu">
+    <!-- Checkbox cachée pour contrôler le menu -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    
+    <!-- Bouton hamburger -->
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
 
-
-      
-    </header>
-      
+    <!-- Menu déroulant -->
+    <ul class="menu-items">
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#a-propos">À propos</a></li>
+    </ul>
+  </nav>
 </body>
 </html>
