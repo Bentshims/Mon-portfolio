@@ -1,30 +1,29 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="test.css">
-  <title>Menu Hamburger</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Document</title>
 </head>
 <body>
-  <nav class="menu">
-    <!-- Checkbox cachée pour contrôler le menu -->
-    <input type="checkbox" id="menu-toggle" class="menu-toggle">
-    
-    <!-- Bouton hamburger -->
-    <label for="menu-toggle" class="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </label>
+    <header class="menu">
+        <h1 class="menu__title"> Ben Tshims </h1>
+        <nav class="menu__navbar">
+            <input type="checkbox" id="checkbox" class="menu__hamburger">
+            <label for="checkbox" class="menu__label">
+                <span class="menu__stach"></span>
+                <span class="menu__stach"></span>
+                <span class="menu__stach"></span>
+            </label>
+            <ul class="menu__list">
+                <li><a href="contact.html" class="menu__items"></a></li>
+                <li><a href="cv.html" class="menu__items"></a></li>
+                <li><a href="projet.html" class="menu__items"></a></li>
 
-    <!-- Menu déroulant -->
-    <ul class="menu-items">
-      <li><a href="#accueil">Accueil</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#a-propos">À propos</a></li>
-    </ul>
-  </nav>
+            </ul>
+
+        </nav>
+    </header>
 </body>
 </html>
