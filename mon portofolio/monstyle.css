@@ -167,7 +167,7 @@ header{
 }
 .mainCv__pro{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     padding: 10px;
 }
 
