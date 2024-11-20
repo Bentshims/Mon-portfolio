@@ -162,24 +162,21 @@ header{
 /* le cv */
 .mainCv{
     margin: 10px;
-    padding: 10px;
+    padding: 30px;
+    
 }
 .mainCv__pro{
     display: flex;
     flex-direction: row-reverse;
+    padding: 10px;
 }
 
-.section1__date{
-    display: flex;
-    justify-content: space-between;
-}
-.mysection{
-    border-top: 2px solid rgba(12, 12, 12, 0.164);
-    margin-bottom: 32px 8px;
-    padding: 32px;
-}
+
 .main__profil{
-    width: 600px;
+    background-color: rgb(87, 228, 209);
+    width: 500px;
+    padding: 20px;
+
 }
 
 /* projet */
