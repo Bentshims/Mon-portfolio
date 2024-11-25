@@ -9,22 +9,46 @@
 
 </head>
 <body>
-    <header class="header">
-        <h3 class="header__title"> Ben Tshimanga</h3>
-        <nav class="myheader__nav">
-            <a href="acceuil.html" target="_blank"class="header__items header__items--underline"> Acceuil |</a>
-            <a href="cv.html" target="_blank" class="header__items header__items--underline"> Cv |</a>
-            <a href="projet.html" target="_blank" class="header__items header__items--underline"> Projet |</a>
-            <a href="contact.html" target="_blank" class="header__items header__items--underline"> Contact</a>
-        </nav>
-    </header>
+    <header>
+        <div class="headtop">
+            <h1 class="header__title"> Ben Tshims</h1>
+            <nav class="myheader__nav">
+                <ul class="headtop__list">
+                     <li class="headtop__items"><a href="acceuil.html" target="_blank"class="headtop__items headtop__items--underline"> Acceuil |</a></li>
+                     <li class="headtop__items"><a href="cv.html" target="_blank" class="headtop__items headtop__items--underline"> Cv |</a></li>
+                     <li class="headtop__items"><a href="projet.html" target="_blank" class="headtop__items headtop__items--underline"> Projet |</a></li>
+                     <li class="headtop__items"><a href="contact.html" target="_blank" class="headtop__items headtop__items--underline"> Contact</a></li>
+                </ul>
+            </nav>  
+            <div class="hamburger">
+                
+                <input type="checkbox" id="hamburger__tart" style="display: none;">
+                <label for="hamburger__tart" class="hamburger__form">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="hamburger__list">
+                    <li class="hamburger__items"><a href="acceuil.html">Accueil</a></li>
+                    <li class="hamburger__items"><a href="cv.html">CV</a></li>
+                    <li class="hamburger__items"><a href="projet.html">Projet</a></li>
+                    <li class="hamburger__items"><a href="contact.html">Contact</a></li>
+                </ul>
+                
+                
+            </div>       
+                
+     
+             
+        </div>
+     </header>  
     <main class="main">
         
         <img src="maphoto.jpg" alt="myphotos" class="main__img"> 
         <div class="main__description" >
         
             <h2 class="main__greet"> Bonjour </h2>
-            <p class="main__aboutme special"> 
+            <p class="profil__pages"> 
                 À propos de moi <p>
             <p class="main__slide">
                 
@@ -49,56 +73,60 @@
             </div>
         </div>
     </main>
-
-    <footer>
-        <div class="phone">
-            <div class="phone__border"> </div>
-           <div class="phone__footer">
-                <div>
-                    <i class="bi bi-telephone"></i>
-                    <p> +243 89  958  22  58 </p>
-                </div>
-                <div>
-                    <i class="bi bi-envelope"></i>
-                    <p> bentshims21@gmail.com</p>
-                </div>
-           </div>
-           <div class="">
-                <div class="footer__blk">
-                    <div class="footer__info special"> suivez-moi </div>
-                    <div class="footer__links">
-                        <a href="https://www.linkedin.com/in/ben-tshims-632aa5334/" target="_blank"  > <i class="bi bi-linkedin  footer__ico"></i></a>
-                        <a href="https://x.com/tshims_ben15226" target="_blank"  > <i class="bi bi-twitter-x  footer__ico"></i></a>
-                    </div>
-                </div>   
+</main>
+<footer>
+    <div class="phone">
+        <div class="footer__border"> </div>
+       <div class="phone__footer">
+            <div>
+                <i class="bi bi-telephone icn"></i>
+                <p> +243 89  958  22  58 </p>
             </div>
-            <p class="footer__copyright">
-                &copy; 2024 by Ben Tshims
-            </p>
-           </div>
-
+            <div>
+                <i class="bi bi-envelope icn"></i>
+                <p> bentshims21@gmail.com</p>
+            </div>
+       </div>
+       <div class="">
+            <div class="footer__blk">
+                <div class="footer__info "> suivez-moi </div>
+                <div class="footer__links">
+                    <a href="https://www.linkedin.com/in/ben-tshims-632aa5334/" target="_blank"  > <i class="bi bi-linkedin  footer__ico"></i></a>
+                    <a href="https://x.com/tshims_ben15226" target="_blank"  > <i class="bi bi-twitter-x  footer__ico"></i></a>
+                </div>
+            </div>   
         </div>
-        <div class="footer ">
-            <div class="footer__blk ">
-                <span class="footer__info special">Telephone</span>
-                <span class="footer__number "> +243 89  958  22  58 </span>
+        <p class="footer__copyright">
+            &copy; 2024 by Ben Tshims
+        </p>
+       </div>
+
+    </div>
+    <div>
+        <div class="footop__border"> </div>
+        <div class="footop">
+
+            <div class="footop__blk ">
+                <span class="footer__info ">Telephone</span>
+                <span class="footop__number "> +243 89  958  22  58 </span>
             </div>
-            <div class="footer__blk">
-                <span class="footer__email special"> Email </span>
-                <span class="footer__adress"> bentshims21@gmail.com</span>
+            <div class="footop__blk">
+                <span class="footer__info"> Email </span>
+                <span class="footop__adress"> bentshims21@gmail.com</span>
             </div>
-            <div class="footer__blk">
-                <div class="footer__info special"> suivez-moi </div>
+            <div class="footop__blk">
+                <div class="footer__info"> suivez-moi </div>
                 <div class="footer__links">
                     <a href="https://www.linkedin.com/in/ben-tshims-632aa5334/" target="_blank"  > <i class="bi bi-linkedin  footer__ico"></i></a>
                     <a href="https://x.com/tshims_ben15226" target="_blank"  > <i class="bi bi-twitter-x  footer__ico"></i></a>
                 </div>
             </div>
-            <p class="footer__copyright">
+            <p class="footer __copyright">
                 &copy; 2024 by Ben Tshims
             </p>
+
         </div>
-    </footer>
-    
+    </div>
+</footer>
 </body>
 </html>
